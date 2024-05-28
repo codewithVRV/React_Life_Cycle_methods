@@ -1,0 +1,20 @@
+
+
+.header-parent {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.header-parent  > a{
+    cursor: pointer;
+    background-color: lightcoral;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.header-parent > a:hover{
+    background-color: rgb(174, 87, 87);
+}

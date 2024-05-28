@@ -1,14 +1,21 @@
-import Person from "./Component/ClassComponent/ClassComponent";
-import User from "./Component/Functional/FunctionalComponent";
+// import Person from "./Component/ClassComponent/ClassComponent";
+// import User from "./Component/Functional/FunctionalComponent";
+// import Header from "./Component/Header/Header";
+import Header from "./Component/Header/Header";
+import AllRoutes from "./Component/Routes/AllRoutes";
 
 
 function App() {
 
+  
+
   return (
     <>
-      <h1>App Component!</h1>
-      <User />
-      <Person />
+    {/* <Header /> */}
+    <Header />
+      <AllRoutes />
+      {/* <Header /> */}
+
     </>
   )
 }
