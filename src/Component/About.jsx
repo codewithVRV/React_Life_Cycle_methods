@@ -5,8 +5,8 @@ import User from "./Functional/FunctionalComponent";
 const About = () => {
     return (
         <>
-            <User />
-            <Person />
+            {/* <User /> */}
+            <Person  city={"Noida"}/>
         </>
     )
 }

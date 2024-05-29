@@ -13,11 +13,26 @@ class Person extends React.Component {
         console.log("componentDidMount Called")
     }
 
+    componentDidUpdate(preProps, preState) {
+        // console.log("preProps, preState", preProps, preState)
+        console.log("componentDidUpdate Called");
+    }
+
+
+
 
     render(){
         console.log("Inside Render")
+        const {count} = this.state;
         return (
-            <h1>I am Class Component</h1>
+            <>
+                <h1>I am Class Component</h1>
+                <button onClick={() => {
+                    this.setState({
+                        count: this.state.count+10
+                    })
+                }}>Click: {count}</button>
+            </>
         )
     }
 }
