@@ -1,8 +1,32 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation
 
-Currently, two official plugins are available:
+Clone this repo:- git@github.com:codewithVRV/React_Life_Cycle_methods.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+  cd my-project
+  npm install
+  npm run dev
+```
+    
+# React Life cycle Methods
+There are three phases of life cycle Methods
+
+First:- Mounting (constructor, render, componentDidMount)
+
+Second:- Update (render, componentDidUpdate)
+
+Third:- Unmounting (componentWillUnmount)
+
+
+## Demo
+
+Click on the link given below to understand better.
+
+https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+## Screenshots
+
+![ComponentDidMount](./src/assets/p1.png)
+![componentDidUpdate](./src/assets/p2.png)
+![componentWillUnmount](./src/assets/p3.png)
+
